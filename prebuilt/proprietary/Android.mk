@@ -18,121 +18,121 @@ ifeq ($(filter-out yukon rhine shinano shinano2, $(PRODUCT_PLATFORM)), )
 include $(CLEAR_VARS)
 LOCAL_MODULE := addrsetup
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/addrsetup
+LOCAL_SRC_FILES := vendor/bin/addrsetup
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := hci_qcomm_init
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/hci_qcomm_init
+LOCAL_SRC_FILES := vendor/bin/hci_qcomm_init
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := hvdcp
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/hvdcp
+LOCAL_SRC_FILES := vendor/bin/hvdcp
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := irsc_util
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/irsc_util
+LOCAL_SRC_FILES := vendor/bin/irsc_util
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := mlog_qmi_service
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/mlog_qmi_service
+LOCAL_SRC_FILES := vendor/bin/mlog_qmi_service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := netmgrd
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/netmgrd
+LOCAL_SRC_FILES := vendor/bin/netmgrd
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := qmuxd
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/qmuxd
+LOCAL_SRC_FILES := vendor/bin/qmuxd
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := qseecomd
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/qseecomd
+LOCAL_SRC_FILES := vendor/bin/qseecomd
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := rmt_storage
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/rmt_storage
+LOCAL_SRC_FILES := vendor/bin/rmt_storage
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := sct_service
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/sct_service
+LOCAL_SRC_FILES := vendor/bin/sct_service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ta_qmi_service
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/ta_qmi_service
+LOCAL_SRC_FILES := vendor/bin/ta_qmi_service
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := tad_static
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/tad_static
+LOCAL_SRC_FILES := vendor/bin/tad_static
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
