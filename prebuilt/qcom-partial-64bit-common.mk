@@ -62,5 +62,4 @@ PRODUCT_PACKAGES += \
 	libsensor_reg \
 	libsystem_health_mon \
 	libta \
-	libxml \
-	libxml2
+	libxml
